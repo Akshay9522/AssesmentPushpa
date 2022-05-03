@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="139193" started-at="2022-05-03T14:39:30 IST" finished-at="2022-05-03T14:41:49 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="139193" started-at="2022-05-03T14:39:30 IST" finished-at="2022-05-03T14:41:49 IST">
+      <class name="resources.Base">
+        <test-method status="PASS" signature="Idmb()[pri:1, instance:resources.Base@bdb505]" name="Idmb" duration-ms="95511" started-at="2022-05-03T14:39:30 IST" finished-at="2022-05-03T14:41:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Idmb -->
+        <test-method status="PASS" signature="tearDown()[pri:2, instance:resources.Base@bdb505]" name="tearDown" duration-ms="11044" started-at="2022-05-03T14:41:06 IST" finished-at="2022-05-03T14:41:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Wiki()[pri:3, instance:resources.Base@bdb505]" name="Wiki" duration-ms="31263" started-at="2022-05-03T14:41:17 IST" finished-at="2022-05-03T14:41:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wiki -->
+        <test-method status="PASS" signature="tearDown1()[pri:4, instance:resources.Base@bdb505]" name="tearDown1" duration-ms="907" started-at="2022-05-03T14:41:48 IST" finished-at="2022-05-03T14:41:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+        <test-method status="FAIL" signature="Validation()[pri:5, instance:resources.Base@bdb505]" name="Validation" duration-ms="91" started-at="2022-05-03T14:41:49 IST" finished-at="2022-05-03T14:41:49 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Assertion  failed due to another country release date expected [17 December 2021] but found [January 7, 2022 (United States)]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Assertion  failed due to another country release date expected [17 December 2021] but found [January 7, 2022 (United States)]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at resources.Base.Validation(Base.java:52)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validation -->
+      </class> <!-- resources.Base -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
